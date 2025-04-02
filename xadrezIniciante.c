@@ -3,6 +3,8 @@ int main (){
 
     int  i = 1 ;
     int I = 1;
+    int j = 1;
+    char direita, frente, esquerda;
     printf ("Bispo:\n");
     do
     {
@@ -23,10 +25,23 @@ int main (){
     
     while ( I <= 8)
     {
-        printf (" esquerda\n", I);
+        printf (" esquerda\n");
         I++;
     }
     
+    printf("cavalo\n");
+    for (int i = 1; i < 2; i++);
+    {
+        while (j < 3)
+        {
+            printf(" frente\n");
+            j++;
+        }
+       printf("direita\n") ;
+    }
+
+
+
     
     return 0;
 
